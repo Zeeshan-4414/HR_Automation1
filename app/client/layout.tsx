@@ -13,7 +13,7 @@ export default function ClientLayout({
         <div className="container mx-auto px-6 py-4 flex justify-between items-center">
           <Link href="/client" className="flex items-center text-3xl font-bold hover:text-green-200 transition-colors duration-200">
             <Image 
-              src="/placeholder.svg?height=40&width=40" 
+              src="/hr automation.png?height=40&width=40" 
               alt="HR Automation Portal Logo" 
               width={40} 
               height={40} 
