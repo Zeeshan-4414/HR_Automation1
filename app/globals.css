@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: 210 100% 35%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 200 50% 95%;
+  --secondary-foreground: 210 100% 35%;
+  --accent: 25 95% 53%;
+  --accent-foreground: 0 0% 100%;
+  --background: 0 0% 100%;
+  --foreground: 210 40% 15%;
+}
+
+.dark {
+  --primary: 210 100% 50%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 210 40% 20%;
+  --secondary-foreground: 0 0% 100%;
+  --accent: 25 95% 53%;
+  --accent-foreground: 0 0% 100%;
+  --background: 210 40% 10%;
+  --foreground: 0 0% 100%;
+}
+
+body {
+  color: hsl(var(--foreground));
+  background: hsl(var(--background));
+}
+
