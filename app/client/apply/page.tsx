@@ -151,4 +151,3 @@ export default function ApplicationForm() {
 }
 
 export { ApplicationFormContent };
-
