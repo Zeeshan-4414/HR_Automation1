@@ -14,7 +14,7 @@ export default function AdminLayout({
         <div className="container mx-auto px-6 py-4 flex justify-between items-center">
           <Link href="/admin" className="flex items-center text-2xl font-bold hover:text-indigo-300 transition-colors duration-200">
             <Image 
-              src="/hr automation.png?height=40&width=40" 
+              src="/placeholder.svg?height=40&width=40" 
               alt="HR Automation Portal Logo" 
               width={40} 
               height={40} 

@@ -7,6 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'HR Management Automation Portal',
   description: 'Professional HR management website with advanced question generator',
+    generator: 'v0.dev'
 }
 
 export default function RootLayout({
